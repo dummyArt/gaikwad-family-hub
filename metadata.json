@@ -1,0 +1,6 @@
+{
+  "name": "GAIKWAD FAMILY",
+  "description": "One Family. One Place. Infinite Memories ❤️ - Beautiful Indian family portal for photos, videos, music, member directory, albums, and AI-powered memory organizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="goldGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFDF78"/>
+      <stop offset="60%" stop-color="#E29C1F"/>
+      <stop offset="100%" stop-color="#995700"/>
+    </radialGradient>
+    <linearGradient id="maroonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#881337"/>
+      <stop offset="50%" stop-color="#991b1b"/>
+      <stop offset="100%" stop-color="#580f1d"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#maroonGrad)" stroke="url(#goldGrad)" stroke-width="3"/>
+  <circle cx="50" cy="50" r="43" fill="none" stroke="#FFDF78" stroke-width="0.75" stroke-dasharray="2,2"/>
+  <!-- Crown on top -->
+  <path d="M35 34 L40 40 L50 30 L60 40 L65 34 L62 48 L38 48 Z" fill="url(#goldGrad)"/>
+  <circle cx="50" cy="28" r="2.5" fill="#FFEAA0"/>
+  <circle cx="35" cy="32" r="2" fill="#FFEAA0"/>
+  <circle cx="65" cy="32" r="2" fill="#FFEAA0"/>
+  <!-- Family heart / crest -->
+  <path d="M50 53 C46 47, 36 47, 36 57 C36 67, 50 75, 50 75 C50 75, 64 67, 64 57 C64 47, 54 47, 50 53 Z" fill="url(#goldGrad)"/>
+  <circle cx="50" cy="60" r="4" fill="#991b1b"/>
+  <text x="50" y="86" font-family="'Cinzel', serif, Arial" font-size="7" font-weight="bold" fill="#FFEAA0" text-anchor="middle" letter-spacing="1">GAIKWAD</text>
+</svg>

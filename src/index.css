@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', 'Noto Sans Devanagari', serif;
+    --font-sans: 'Outfit', 'Noto Sans Devanagari', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Indian royal decorative borders and backgrounds */
+.bg-mandala {
+  background-color: #FFFDF9;
+  background-image: radial-gradient(circle at 50% 50%, rgba(217, 119, 6, 0.04) 0%, transparent 60%),
+    radial-gradient(circle at 10% 20%, rgba(185, 28, 28, 0.03) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(217, 119, 6, 0.03) 0%, transparent 40%);
+}
+
+.dark .bg-mandala {
+  background-color: #120b0a;
+  background-image: radial-gradient(circle at 50% 50%, rgba(217, 119, 6, 0.08) 0%, transparent 60%),
+    radial-gradient(circle at 10% 20%, rgba(185, 28, 28, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(217, 119, 6, 0.06) 0%, transparent 40%);
+}
+
+/* Subtle gold foil border effect */
+.border-gold-gradient {
+  border-image: linear-gradient(to right, #b45309, #f59e0b, #fef08a, #d97706, #78350f) 1;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+::-webkit-scrollbar-thumb {
+  background: #d97706;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b45309;
+}
